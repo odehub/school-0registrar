@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: bottom;
+    background: url(https://media4.giphy.com/media/Ltz1ZA728qKw4mEY94/giphy.gif);
+    background-repeat: no-repeat;
+
+   background-size: cover;
+
+
+ -webkit-animation: AnimateBG 20s ease infinite;
+  animation: AnimateBG 20s ease infinite;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button{
+padding: 10px 20px;
+font-size: 16px;
+background-color: #c7760d;
+color: white;
+border: none;
+cursor: pointer;
+margin: 5px;
+border-radius: 5px;
+}
+
+button:hover{
+background-color: #0056b3;
+}
